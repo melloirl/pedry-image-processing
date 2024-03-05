@@ -5,7 +5,7 @@ OUTPUT_DIR = ./build
 # Diretório de saída e nome do programa
 OUTPUT = $(OUTPUT_DIR)/program 
 # Arquivos fonte
-SOURCES = main.c operations/bmp.c
+SOURCES = main.c operations/blur_grey.c operations/copy.c utils/bmp.c utils/fs.c utils/writing.c
 # Diretório dos arquivos objeto baseado no diretório dos arquivos fonte
 OBJECTS = $(patsubst %.c,$(OUTPUT_DIR)/%.o,$(SOURCES))
 
