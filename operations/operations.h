@@ -8,5 +8,6 @@
 // Include the headers for the specific operations
 #include "blur_grey.h"
 #include "copy.h"
+#include "distance.h"
 
 #endif // OP_H

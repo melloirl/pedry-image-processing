@@ -3,6 +3,7 @@
 #include <string.h>
 #include "./utils/fs.h"
 #include "./operations/operations.h"
+#include "./operations/distance.h"
 
 char* extract_filename(const char *path) {
     const char *last_slash = strrchr(path, '/');
